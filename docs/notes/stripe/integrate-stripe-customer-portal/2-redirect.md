@@ -4,8 +4,8 @@ title: Step 2 - Implement a Redirect
 
 # Step 2 - Implement a Redirect
 
-We have a **user** and we want to pass that user to the **portal** so they can
-subscribe to our **app**.
+We have a **user** and we want to pass that user to the **portal**,
+so they can subscribe to our **app**.
 
 !!! info ""
     This means need to tell the **portal** who our user is. 
@@ -36,8 +36,8 @@ reference and redirects our user to the `stripe_url`.
 
 At the end of the flow described above:
 
-* Stripe has a user identifier that we understand (the `user_id`).
-* We have a user identifier that Stripe understands (the `stripe_identifier`).
+* Stripe has an identifier for the user that we understand (the `user_id`).
+* We have an identifier for the user that Stripe understands (the `stripe_identifier`).
 * This means we can refer to the same user when sharing information.
 * Our user is sent to the portal to make their selection.
 

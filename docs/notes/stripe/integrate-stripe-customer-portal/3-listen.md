@@ -6,7 +6,7 @@ title: Step 3 - Listen to webhooks
 
 By now we have a **session** between our **app** and the **portal**.
 
-This session is long-lived. Whenever the user makes a change to their
+This session is **long-lived**. Whenever the user makes a change to their
 subscription then the portal will try to tell us.
 
 !!! info ""
