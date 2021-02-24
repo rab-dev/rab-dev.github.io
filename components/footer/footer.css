@@ -1,0 +1,10 @@
+.footer {
+  /* colors */
+  color: var(--footer-fg-color);
+  background: var(--footer-bg-color);
+  /* fonts */
+  font-size: 90%;
+  font-family: var(--font-family);
+  /* size */
+  height: var(--footer-height);
+}

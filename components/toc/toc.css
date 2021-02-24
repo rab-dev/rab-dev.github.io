@@ -1,0 +1,11 @@
+.toc li {
+  font-size: 90%;
+  list-style-type: none;
+  margin: 0.25rem auto;
+}
+
+.toc a {
+  color: var(--fg-color);
+  text-decoration: none;
+  font-weight: normal;
+}

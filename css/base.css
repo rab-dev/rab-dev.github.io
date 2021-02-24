@@ -1,0 +1,41 @@
+body {
+  color: var(--fg-color);
+  background: var(--bg-color);
+  font-family: var(--font-family);
+}
+
+html,body,h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-family);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--brand-bg-color);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  color: var(--brand-bg-color);
+}
+
+blockquote {
+  color: #6a737d;
+  padding: 0 10px;
+  border-left: 7.5px solid #dfe2e5;
+}
+
+pre,
+code,
+kbd,
+samp {
+  color: #000;
+  background: #f0f0f0;
+  padding: 2px;
+  border-radius: 3px;
+  font-family: monospace, monospace;
+  _font-family: 'courier new', monospace;
+  font-size: 0.98em;
+}

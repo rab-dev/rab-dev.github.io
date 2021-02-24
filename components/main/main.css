@@ -1,0 +1,65 @@
+.main {
+  /* colors */
+  color: var(--main-fg-color);
+  background: var(--main-bg-color);
+  /* fonts */
+  font-size: 110%;
+  font-family: var(--font-family);
+  /* layout */
+  margin-top: var(--header-height);
+  margin-left: var(--main-margin-left);
+  /* size */
+  min-height: 100vh;
+}
+
+.main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
+  color: var(--main-heading-fg-color);
+  background: var(--main-heading-bg-color);
+}
+
+.main b,
+.main strong {
+  color: var(--main-bold-fg-color);
+}
+
+.main a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.main table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.main td,
+.main th {
+  padding: 0;
+}
+
+.main table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+.main table th {
+  font-weight: 600;
+}
+
+.main table td,
+.main table th {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.main table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+.main table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+

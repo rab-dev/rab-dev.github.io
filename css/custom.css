@@ -1,0 +1,13 @@
+:root {
+
+  --brand-bg-color: rgb(0,0,0);
+
+  --navbar-bg-color: #6A5ACD;
+  --navbar-fg-color: #ffffff;
+
+  --sidebar-width: 320px;
+
+  --main-heading-fg-color: #646;
+  --main-bold-fg-color: #5963B5;
+
+}
