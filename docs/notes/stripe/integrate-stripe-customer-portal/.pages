@@ -1,0 +1,6 @@
+arrange:
+  - index.md
+  - 1-configure.md
+  - 2-redirect.md
+  - 3-listen.md
+  - 4-go-live.md

@@ -1,0 +1,4 @@
+arrange:
+  - stripe
+  - mkdocs
+  - git.md

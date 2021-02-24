@@ -1,0 +1,5 @@
+arrange:
+  - index.md
+  - create-stripe-account.md
+  - list-products-in-stripe.md
+  - integrate-stripe-customer-portal

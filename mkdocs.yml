@@ -1,0 +1,20 @@
+site_name: Rab Notes
+site_description: Rab notes, thoughts, ideas.
+site_url: https://rab.oxyio.com/
+
+dev_addr: 127.0.0.1:8335
+
+theme:
+  name: null
+  custom_dir: ../shine-mkdocs-theme/shine_theme
+
+extra_css:
+    - css/custom.css
+
+plugins:
+  - search
+  - awesome-pages
+  - blog
+
+markdown_extensions:
+  - admonition
