@@ -1,10 +1,11 @@
 ---
-title: MkDocs Elegant Theme
+title: MkDocs Rab Theme
 ---
 
-# MkDocs Elegant Theme
+# MkDocs Rab Theme
 
-**MkDocs Elegant Theme** is a theme for `MkDocs` to help create elegant documentation.
+!!! info ""
+    **MkDocs Rab Theme** is a theme for `MkDocs` to help create elegant documentation.
 
 ## Motivation
 
@@ -13,10 +14,10 @@ on **project documentation**.
 
 !!! info ""
     The default theme is at best dated and at worst never really that great (sorry). 
-    This does not put your documentation in the best light.
+    This does not put our documentation in the best light.
 
-Fortunately `MkDocs` is a great piece of software and highly customisable so creating 
-an alternative theme is possible (many have).
+Fortunately `MkDocs` is a great piece of software and highly customisable.
+So creating an alternative theme is possible (many have).
 
 ## What is this?
 
@@ -38,7 +39,7 @@ This is for those who:
 
 ## Can I buy it?
 
-Yes. This theme is being used as a test case for using Stripe Customer Portal.
+Not yet. This theme is being used as a test case for using Stripe Customer Portal.
 When that is up and running a button will be posted here.
 
 <center>

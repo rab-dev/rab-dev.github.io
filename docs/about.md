@@ -9,7 +9,7 @@ title: About
 
 It's like a **notebook**, it's like a **blog**, it's like **nothing much** yet.
 
-It's somewhere to keep notes and I should have been here a long time ago.
+> It's somewhere to keep notes and I should have been here a long time ago.
 
 ## Contact
 

@@ -4,12 +4,13 @@ title: Step 3 - Listen to webhooks
 
 # Step 3 - Listen to webhooks
 
-By now we have a **session** between our **app** and the **portal**.
+!!! info ""
+    By now we have a **session** between our **app** and the **portal**.
 
 This session is **long-lived**. Whenever the user makes a change to their
 subscription then the portal will try to tell us.
 
-!!! info ""
+!!! green ""
     The **portal** is talking so we need a way of **listening**.
 
 ## Webhooks

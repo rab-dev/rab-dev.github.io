@@ -4,7 +4,8 @@ title: MkDocs
 
 # MkDocs
 
-`MkDocs` is a **static site generator** focused on creating documentation.
+!!! info ""
+    `MkDocs` is a **static site generator** focused on creating documentation.
 
 ## Example
 

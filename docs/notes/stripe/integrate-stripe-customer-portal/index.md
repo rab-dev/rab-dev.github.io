@@ -4,8 +4,9 @@ title: About
 
 # Integrate Stripe Customer Portal
 
-The **Stripe Customer Portal** enables users to self-serve subscriptions for an application
-_so we don't have to_.
+!!! info ""
+    The Stripe Customer Portal enables users to **self-serve subscriptions**
+     for an application **so we don't have to**.
 
 ## Why should we care?
 
@@ -16,8 +17,7 @@ The portal handles:
 * **Invoices**
 * **Payments**
 
-!!! info ""
-    Which is a lot.
+_Which is a lot._
 
 ## How does it work?
 

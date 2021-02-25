@@ -10,7 +10,7 @@ title: Index
     Rab Notes
   </h1>
   <h5>
-    <a href="http://rab.oxyio.com">rab.oxyio.com</a>
+    rab.oxyio.com
   </h5>
 </center>
 

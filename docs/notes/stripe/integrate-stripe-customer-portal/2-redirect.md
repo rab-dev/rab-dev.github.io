@@ -4,16 +4,21 @@ title: Step 2 - Implement a Redirect
 
 # Step 2 - Implement a Redirect
 
-We have a **user** and we want to pass that user to the **portal**,
-so they can subscribe to our **app**.
-
 !!! info ""
-    This means need to tell the **portal** who our user is. 
+    We have a **user** logged into our app
+    and we would like them to use the **portal** to subscribe to our **app**.
+
+## How it works
+
+We need to do two things:
+
+1. Tell the portal who our user is. 
+2. Hand-off our user to the portal.
 
 We tell the portal through a **redirect** which forms a kind of _handshake_ between
 our app and the portal before passing the user to the portal.
 
-## How it works
+## In detail
 
 <center>
   ![](img/actors.png)
