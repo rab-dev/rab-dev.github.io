@@ -186,30 +186,6 @@
 
   
 
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../create-stripe-account/'">
-      Create Stripe Account
-    </div>
-
-  
-
-
-      
-        
-
-  
-
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../list-products-in-stripe/'">
-      List products in Stripe
-    </div>
-
-  
-
-
-      
-        
-
-  
-
     <div
       onclick="toggleExpansionItem(this)"
       class="sidenav-expanding-item w3-bar-item w3-button  active open"
@@ -338,8 +314,8 @@
 
   
 
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../mkdocs/mkdocs-elegant-theme/'">
-      MkDocs Elegant Theme
+    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../mkdocs/mkdocs-rab-theme/'">
+      MkDocs Rab Theme
     </div>
 
   
@@ -472,8 +448,8 @@ function w3_close() {
       
         <h1 id="integrate-stripe-customer-portal">Integrate Stripe Customer Portal</h1>
 <div class="admonition info">
-<p>The <strong>Stripe Customer Portal</strong> enables users to self-serve subscriptions for an application
-<em>so we don't have to</em>.</p>
+<p>The Stripe Customer Portal enables users to <strong>self-serve subscriptions</strong>
+ for an application <strong>so we don't have to</strong>.</p>
 </div>
 <h2 id="why-should-we-care">Why should we care?</h2>
 <p>The portal handles:</p>
@@ -483,17 +459,17 @@ function w3_close() {
 <li><strong>Invoices</strong></li>
 <li><strong>Payments</strong></li>
 </ul>
-<p>Which is a lot.</p>
+<p><em>Which is a lot.</em></p>
 <h2 id="how-does-it-work">How does it work?</h2>
 <p>The basic flow is:</p>
 <div class="admonition green">
 <ol>
-<li>We tell Stripe about our products.</li>
+<li>We tell the portal about our products.</li>
 <li>We send users to the portal.</li>
 <li>The portal tells us when users buy our products.</li>
 </ol>
 </div>
-<p>We can do the first of these manually. For the others we need a server.</p>
+<p>We can do the first of these manually. For the other two we need a server.</p>
       
     </div>
     
@@ -526,13 +502,43 @@ function w3_close() {
   </div>
   </div>
 </div>
-  <div class="footer">
+  <!-- Footer -->
+<div class="footer w3-bottom" style="z-index: 5;">
+  <div class="w3-bar">
+    <!-- previous and next links to cycle through the pages. -->
+    
+      <div class="w3-container w3-col w3-col-middle w3-center w3-padding">
+        <div class="w3-left w3-medium">
+          
+            <a href="../" title="What is Stripe?">
+              <span class="w3-hide-small">What is Stripe?</span>
+              <br/>
+              &#8592; Prev
+            </a>
+          
+        </div>
+        <span class="w3-small w3-text-grey">
+        </span>
+        <div class=" w3-right w3-medium">
+          
+            <a href="1-configure/" title="Step 1 - Configure the Portal">
+              <span class="w3-hide-small">Step 1 - Configure the Portal</span>
+              <br/>
+              Next &#8594;
+            </a>
+          
+        </div>
+      </div>
+    
+
+  </div>
   <div class="w3-container w3-right w3-text-grey">
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">
-      MkDocs + w3.css + RabTheme
+      MkDocs + RabTheme
     </a></p>
   </div>
 </div>
+
 
 </div>
 

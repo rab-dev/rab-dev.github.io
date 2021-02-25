@@ -186,30 +186,6 @@
 
   
 
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../create-stripe-account/'">
-      Create Stripe Account
-    </div>
-
-  
-
-
-      
-        
-
-  
-
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../list-products-in-stripe/'">
-      List products in Stripe
-    </div>
-
-  
-
-
-      
-        
-
-  
-
     <div
       onclick="toggleExpansionItem(this)"
       class="sidenav-expanding-item w3-bar-item w3-button  active open"
@@ -338,8 +314,8 @@
 
   
 
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../../mkdocs/mkdocs-elegant-theme/'">
-      MkDocs Elegant Theme
+    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../../mkdocs/mkdocs-rab-theme/'">
+      MkDocs Rab Theme
     </div>
 
   
@@ -471,16 +447,17 @@ function w3_close() {
 
       
         <h1 id="step-1-configure-the-portal">Step 1 - Configure the Portal</h1>
-<p>First we need to <strong>configure the portal</strong> so it knows about our <strong>products</strong> and 
+<div class="admonition info">
+<p>The first step is to <strong>configure the portal</strong> so it knows about our <strong>products</strong> and 
 our <strong>prices</strong>.</p>
+</div>
 <h2 id="how-to-configure-the-portal">How to configure the portal</h2>
 <p>There is nothing inherently difficult here. </p>
 <blockquote>
 <p>This is just standard Stripe fare and unless we have an automated means will involve
 picking through their interface to name our products, upload images and set
-prices. </p>
+prices. Straightfoward but tedious.</p>
 </blockquote>
-<p>Straightfoward but tedious.</p>
 <h2 id="branding">Branding</h2>
 <p>We can optionally brand the portal with our:</p>
 <ul>
@@ -522,13 +499,43 @@ prices. </p>
   </div>
   </div>
 </div>
-  <div class="footer">
+  <!-- Footer -->
+<div class="footer w3-bottom" style="z-index: 5;">
+  <div class="w3-bar">
+    <!-- previous and next links to cycle through the pages. -->
+    
+      <div class="w3-container w3-col w3-col-middle w3-center w3-padding">
+        <div class="w3-left w3-medium">
+          
+            <a href="../" title="About">
+              <span class="w3-hide-small">About</span>
+              <br/>
+              &#8592; Prev
+            </a>
+          
+        </div>
+        <span class="w3-small w3-text-grey">
+        </span>
+        <div class=" w3-right w3-medium">
+          
+            <a href="../2-redirect/" title="Step 2 - Implement a Redirect">
+              <span class="w3-hide-small">Step 2 - Implement a Redirect</span>
+              <br/>
+              Next &#8594;
+            </a>
+          
+        </div>
+      </div>
+    
+
+  </div>
   <div class="w3-container w3-right w3-text-grey">
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">
-      MkDocs + w3.css + RabTheme
+      MkDocs + RabTheme
     </a></p>
   </div>
 </div>
+
 
 </div>
 

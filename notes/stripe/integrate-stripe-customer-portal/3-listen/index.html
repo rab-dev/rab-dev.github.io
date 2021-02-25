@@ -186,30 +186,6 @@
 
   
 
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../create-stripe-account/'">
-      Create Stripe Account
-    </div>
-
-  
-
-
-      
-        
-
-  
-
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../list-products-in-stripe/'">
-      List products in Stripe
-    </div>
-
-  
-
-
-      
-        
-
-  
-
     <div
       onclick="toggleExpansionItem(this)"
       class="sidenav-expanding-item w3-bar-item w3-button  active open"
@@ -338,8 +314,8 @@
 
   
 
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../../mkdocs/mkdocs-elegant-theme/'">
-      MkDocs Elegant Theme
+    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../../mkdocs/mkdocs-rab-theme/'">
+      MkDocs Rab Theme
     </div>
 
   
@@ -471,10 +447,12 @@ function w3_close() {
 
       
         <h1 id="step-3-listen-to-webhooks">Step 3 - Listen to webhooks</h1>
-<p>By now we have a <strong>session</strong> between our <strong>app</strong> and the <strong>portal</strong>.</p>
-<p>This session is long-lived. Whenever the user makes a change to their
-subscription then the portal will try to tell us.</p>
 <div class="admonition info">
+<p>By now we have a <strong>session</strong> between our <strong>app</strong> and the <strong>portal</strong>.</p>
+</div>
+<p>This session is <strong>long-lived</strong>. Whenever the user makes a change to their
+subscription then the portal will try to tell us.</p>
+<div class="admonition green">
 <p>The <strong>portal</strong> is talking so we need a way of <strong>listening</strong>.</p>
 </div>
 <h2 id="webhooks">Webhooks</h2>
@@ -510,13 +488,43 @@ has changed, we just wait to be told).</p>
   </div>
   </div>
 </div>
-  <div class="footer">
+  <!-- Footer -->
+<div class="footer w3-bottom" style="z-index: 5;">
+  <div class="w3-bar">
+    <!-- previous and next links to cycle through the pages. -->
+    
+      <div class="w3-container w3-col w3-col-middle w3-center w3-padding">
+        <div class="w3-left w3-medium">
+          
+            <a href="../2-redirect/" title="Step 2 - Implement a Redirect">
+              <span class="w3-hide-small">Step 2 - Implement a Redirect</span>
+              <br/>
+              &#8592; Prev
+            </a>
+          
+        </div>
+        <span class="w3-small w3-text-grey">
+        </span>
+        <div class=" w3-right w3-medium">
+          
+            <a href="../4-go-live/" title="Step 4 - Go live">
+              <span class="w3-hide-small">Step 4 - Go live</span>
+              <br/>
+              Next &#8594;
+            </a>
+          
+        </div>
+      </div>
+    
+
+  </div>
   <div class="w3-container w3-right w3-text-grey">
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">
-      MkDocs + w3.css + RabTheme
+      MkDocs + RabTheme
     </a></p>
   </div>
 </div>
+
 
 </div>
 

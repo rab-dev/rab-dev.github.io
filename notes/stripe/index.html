@@ -186,30 +186,6 @@
 
   
 
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='create-stripe-account/'">
-      Create Stripe Account
-    </div>
-
-  
-
-
-      
-        
-
-  
-
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='list-products-in-stripe/'">
-      List products in Stripe
-    </div>
-
-  
-
-
-      
-        
-
-  
-
     <div
       onclick="toggleExpansionItem(this)"
       class="sidenav-expanding-item w3-bar-item w3-button  closed"
@@ -338,8 +314,8 @@
 
   
 
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../mkdocs/mkdocs-elegant-theme/'">
-      MkDocs Elegant Theme
+    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../mkdocs/mkdocs-rab-theme/'">
+      MkDocs Rab Theme
     </div>
 
   
@@ -471,21 +447,29 @@ function w3_close() {
 
       
         <h1 id="stripe">Stripe</h1>
-<p>Stripe is a leading provider that has expanded its initial <code>payments processing</code> 
-service into <code>billing</code>, <code>invoicing</code> and <code>financial services</code>.</p>
-<h2 id="ease-of-integration">Ease of Integration</h2>
+<p>Stripe is a leading <code>online payments processing</code> provider that has
+expanded into <code>billing</code>, <code>invoicing</code> and <code>financial services</code>.</p>
+<h2 id="not-so-easy-now">Not so easy now</h2>
 <p>Stripe was widely celebrated by developers when launched due to its ease 
 of integration.</p>
-<h2 id="not-so-easy-now">Not so easy now</h2>
+<div class="admonition warning">
 <p>The expansion of features has resulted in Stripe becoming confusing to
 newcomers and is now <strong>yet another forest</strong> an application developer has to pick 
 their way through.</p>
-<h2 id="notes">Notes</h2>
+</div>
+<h2 id="signing-up">Signing Up</h2>
+<div class="admonition green">
+<p>Creating an account is easy.</p>
+</div>
 <ul>
-<li><a href="create-stripe-account/">Create a Stripe Account</a></li>
-<li><a href="list-products-in-stripe/">List products in Stripe</a></li>
-<li><a href="./integrate-stripe-customer-portal">Integrate Stripe Customer Portal</a></li>
+<li>You can sign-up as a business or an individual. </li>
+<li>All you need is an email address.</li>
+<li>As soon as you sign-up you can try Stripe in test mode:</li>
 </ul>
+<blockquote>
+<p>You can start interacting with your Stripe account in test mode, 
+but can’t create live charges until your account is activated. </p>
+</blockquote>
       
     </div>
     
@@ -500,13 +484,6 @@ their way through.</p>
         </li>
         
             <li>
-              <a href="#ease-of-integration">
-                Ease of Integration
-              </a>
-              
-            </li>
-        
-            <li>
               <a href="#not-so-easy-now">
                 Not so easy now
               </a>
@@ -514,8 +491,8 @@ their way through.</p>
             </li>
         
             <li>
-              <a href="#notes">
-                Notes
+              <a href="#signing-up">
+                Signing Up
               </a>
               
             </li>
@@ -525,13 +502,43 @@ their way through.</p>
   </div>
   </div>
 </div>
-  <div class="footer">
+  <!-- Footer -->
+<div class="footer w3-bottom" style="z-index: 5;">
+  <div class="w3-bar">
+    <!-- previous and next links to cycle through the pages. -->
+    
+      <div class="w3-container w3-col w3-col-middle w3-center w3-padding">
+        <div class="w3-left w3-medium">
+          
+            <a href="../../about/" title="About">
+              <span class="w3-hide-small">About</span>
+              <br/>
+              &#8592; Prev
+            </a>
+          
+        </div>
+        <span class="w3-small w3-text-grey">
+        </span>
+        <div class=" w3-right w3-medium">
+          
+            <a href="integrate-stripe-customer-portal/" title="About">
+              <span class="w3-hide-small">About</span>
+              <br/>
+              Next &#8594;
+            </a>
+          
+        </div>
+      </div>
+    
+
+  </div>
   <div class="w3-container w3-right w3-text-grey">
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">
-      MkDocs + w3.css + RabTheme
+      MkDocs + RabTheme
     </a></p>
   </div>
 </div>
+
 
 </div>
 

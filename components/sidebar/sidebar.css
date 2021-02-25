@@ -4,6 +4,7 @@
   top: calc(var(--header-height) + 1px);
   width: var(--sidebar-width);
   padding: 2px;
+  padding-bottom: 240px;
   box-shadow: 1px 0 1px -1px #888;
   font-weight: 525;
 }

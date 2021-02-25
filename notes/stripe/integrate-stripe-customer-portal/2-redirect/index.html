@@ -186,30 +186,6 @@
 
   
 
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../create-stripe-account/'">
-      Create Stripe Account
-    </div>
-
-  
-
-
-      
-        
-
-  
-
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../list-products-in-stripe/'">
-      List products in Stripe
-    </div>
-
-  
-
-
-      
-        
-
-  
-
     <div
       onclick="toggleExpansionItem(this)"
       class="sidenav-expanding-item w3-bar-item w3-button  active open"
@@ -338,8 +314,8 @@
 
   
 
-    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../../mkdocs/mkdocs-elegant-theme/'">
-      MkDocs Elegant Theme
+    <div class="sidenav-item w3-bar-item w3-button single " onclick="window.location='../../../mkdocs/mkdocs-rab-theme/'">
+      MkDocs Rab Theme
     </div>
 
   
@@ -471,14 +447,19 @@ function w3_close() {
 
       
         <h1 id="step-2-implement-a-redirect">Step 2 - Implement a Redirect</h1>
-<p>We have a <strong>user</strong> and we want to pass that user to the <strong>portal</strong> so they can
-subscribe to our <strong>app</strong>.</p>
 <div class="admonition info">
-<p>This means need to tell the <strong>portal</strong> who our user is. </p>
+<p>We have a <strong>user</strong> logged into our app
+and we would like them to use the <strong>portal</strong> to subscribe to our <strong>app</strong>.</p>
 </div>
+<h2 id="how-it-works">How it works</h2>
+<p>We need to do two things:</p>
+<ol>
+<li>Tell the portal who our user is. </li>
+<li>Hand-off our user to the portal.</li>
+</ol>
 <p>We tell the portal through a <strong>redirect</strong> which forms a kind of <em>handshake</em> between
 our app and the portal before passing the user to the portal.</p>
-<h2 id="how-it-works">How it works</h2>
+<h2 id="in-detail">In detail</h2>
 <p><center>
   <img alt="" src="../img/actors.png" />
 </center></p>
@@ -504,8 +485,8 @@ reference and redirects our user to the <code>stripe_url</code>.</p>
 <h2 id="what-just-happened">What just happened</h2>
 <p>At the end of the flow described above:</p>
 <ul>
-<li>Stripe has a user identifier that we understand (the <code>user_id</code>).</li>
-<li>We have a user identifier that Stripe understands (the <code>stripe_identifier</code>).</li>
+<li>Stripe has an identifier for the user that we understand (the <code>user_id</code>).</li>
+<li>We have an identifier for the user that Stripe understands (the <code>stripe_identifier</code>).</li>
 <li>This means we can refer to the same user when sharing information.</li>
 <li>Our user is sent to the portal to make their selection.</li>
 </ul>
@@ -530,6 +511,13 @@ reference and redirects our user to the <code>stripe_url</code>.</p>
             </li>
         
             <li>
+              <a href="#in-detail">
+                In detail
+              </a>
+              
+            </li>
+        
+            <li>
               <a href="#what-just-happened">
                 What just happened
               </a>
@@ -541,13 +529,43 @@ reference and redirects our user to the <code>stripe_url</code>.</p>
   </div>
   </div>
 </div>
-  <div class="footer">
+  <!-- Footer -->
+<div class="footer w3-bottom" style="z-index: 5;">
+  <div class="w3-bar">
+    <!-- previous and next links to cycle through the pages. -->
+    
+      <div class="w3-container w3-col w3-col-middle w3-center w3-padding">
+        <div class="w3-left w3-medium">
+          
+            <a href="../1-configure/" title="Step 1 - Configure the Portal">
+              <span class="w3-hide-small">Step 1 - Configure the Portal</span>
+              <br/>
+              &#8592; Prev
+            </a>
+          
+        </div>
+        <span class="w3-small w3-text-grey">
+        </span>
+        <div class=" w3-right w3-medium">
+          
+            <a href="../3-listen/" title="Step 3 - Listen to webhooks">
+              <span class="w3-hide-small">Step 3 - Listen to webhooks</span>
+              <br/>
+              Next &#8594;
+            </a>
+          
+        </div>
+      </div>
+    
+
+  </div>
   <div class="w3-container w3-right w3-text-grey">
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">
-      MkDocs + w3.css + RabTheme
+      MkDocs + RabTheme
     </a></p>
   </div>
 </div>
+
 
 </div>
 

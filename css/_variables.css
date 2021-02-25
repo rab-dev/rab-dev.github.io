@@ -31,11 +31,11 @@
   --main-heading-fg-color: var(--brand-bg-color);
   --main-heading-bg-color: rgb(255, 255, 255);
   --main-margin-left: var(--sidebar-width);
-  --main-bold-fg-color: var(--brand-bg-color);
+  --main-bold-fg-color: rgb(37, 194, 160);
 
   /* footer */
   --footer-fg-color: #000;
-  --footer-bg-color: #fff;
+  --footer-bg-color: #f8f8f8;
   --footer-height: 60px;
 
 }
