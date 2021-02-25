@@ -8,6 +8,7 @@
   /* layout */
   margin-top: var(--header-height);
   margin-left: var(--main-margin-left);
+  padding-bottom: 240px;
   /* size */
   min-height: 100vh;
 }
