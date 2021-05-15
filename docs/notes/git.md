@@ -20,6 +20,11 @@ git clone <url>
 # current status
 git status
 
+# current status listing untracked files
+git status -u
+
+# unt
+
 # add all files
 git add --all
 
